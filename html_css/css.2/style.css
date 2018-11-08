@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.credentials-form {
+    text-align: left;  
+}
+
+.credentials-form > table {
+    width: 100%;
+}
+
+.td-input {
+    width: 70%;
+}
+
+.form-input {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    margin: 8px 8;
+    display: inline-block;
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.credentials-form-submit {
+    float: right;
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.credentials-form-submit:hover {
+    background-color: #45a049;
+}

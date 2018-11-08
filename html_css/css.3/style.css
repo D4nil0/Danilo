@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    font-family: 'PT Sans';
+    color: #4a4a4a;
+}
+
+.sidenav {
+    height: 100%;
+    width: 330px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3387a4;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.chapter-row {
+    color: #ffffff;
+}
+
+.chapter-row:hover {
+    color: #dedede !important;
+    cursor: pointer;
+}
+
+.library-title {
+    font-weight: bold;
+}
+
+.chapter-row > .chapter-icon {
+    display: inline;
+    position: relative;
+    top: 4px;
+}
+
+.chapter-row > .chapter-name {
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main {
+    margin-left: 330px;
+    font-size: 30px;
+}
+
+.top-bar {
+    background-color: white;
+    border-bottom: 1px solid #dedede;
+    height: 65px;
+}
+
+.context-bar {
+    background-color: #f6f6f8;
+    height: 56px;
+}
+
+.content {
+    background-color: white;
+    height: calc(100% - 121px);
+}
+
+.material-icons {
+    font-size: 22px;
+    -webkit-align-self: left;
+    align-self: left;
+}
+    
