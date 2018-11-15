@@ -2,6 +2,7 @@ body {
     margin: 0px;
     font-family: 'PT Sans';
     color: #4a4a4a;
+    min-width: 800px;
 }
 
 .sidenav {
@@ -50,11 +51,81 @@ body {
     background-color: white;
     border-bottom: 1px solid #dedede;
     height: 65px;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 23px;
+
 }
 
 .context-bar {
     background-color: #f6f6f8;
     height: 56px;
+    vertical-align: middle;
+}
+
+.context-bar .new-lesson-button {
+    font-size: 13px;
+    background-color: #3387a4;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px 20px 10px 20px;
+    vertical-align: middle;
+    border-radius: 2px;
+    border: none;
+}
+
+.new-lesson-button {
+    float: left;
+}
+
+.context-bar .new-lesson-button:focus {
+    outline: none;
+}
+
+.context-bar .new-lesson-button:hover {
+    background-color: #3ba8cc;
+    cursor: pointer;
+}
+
+.context-bar .sort-by-arrow {
+    font-size: 13px;
+    color: black;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    margin: 10px 20px 10px 20px;
+}
+
+.sort-by-arrow > .material-icons {
+    display: inline;
+    position: relative;
+    top: 7px;
+}
+
+.sort-by-arrow {
+    float: right;
+}
+
+.sort-by-arrow:focus {
+    outline: none;
+}
+
+.sort-by-arrow:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
 }
 
 .content {
@@ -66,5 +137,20 @@ body {
     font-size: 22px;
     -webkit-align-self: left;
     align-self: left;
+}
+
+.top-bar-title {
+   display: inline-block; 
+}
+
+.search-box {
+    display: inline-block;
+    text-align: center;
+    padding-left: 16px;
+    font-size: 4px;
+}
+
+.search-box input[type=text] {
+    border: 1px solid #ccc;
 }
     
