@@ -17,11 +17,21 @@ body {
     padding-top: 20px;
 }
 
-.chapter-row {
-    color: #ffffff;
+.sidenav > .pubmed-link {
+    margin-bottom: 30px;
 }
 
-.chapter-row:hover {
+
+.chapter-row {
+    color: #ffffff !important;
+}
+
+.chapter-row > a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.chapter-row > a:hover {
     color: #dedede !important;
     cursor: pointer;
 }
@@ -30,13 +40,13 @@ body {
     font-weight: bold;
 }
 
-.chapter-row > .chapter-icon {
+.chapter-row .chapter-icon {
     display: inline;
     position: relative;
     top: 4px;
 }
 
-.chapter-row > .chapter-name {
+.chapter-row .chapter-name {
     display: inline;
     font-size: 20px;
     text-decoration: none;
@@ -118,7 +128,7 @@ body {
 }
 
 .sort-by-arrow:hover {
-    color: black;
+    color: #302f2f;
     cursor: pointer;
 }
 
@@ -152,5 +162,7 @@ body {
 
 .search-box input[type=text] {
     border: 1px solid #ccc;
+    padding: 5px;
+
 }
     
